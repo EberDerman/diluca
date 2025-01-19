@@ -1,0 +1,55 @@
+.texto-container a {
+    color: rgb(201, 176, 34);
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+}
+
+.texto-container a:hover {
+    transform: scale(1.2);
+    text-shadow: 3px 3px 5px grey;
+}
+
+.img-container,
+.texto-container {
+    width: 100%;
+    max-width: 400px;
+    /* Ajustar este valor según el ancho real de tu imagen */
+    margin: 0 auto;
+}
+
+.texto-container h6 {
+    color: rgb(201, 176, 34);
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.back_titulo {
+    padding: 10px;
+    background-color: rgb(201, 176, 34);
+}
+
+/* Asegúrate de que las clases de tu CSS tengan la siguiente estructura */
+
+@media (max-width: 768px) { /* O el tamaño de pantalla que consideres adecuado */
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-6 {
+        width: 100%;
+        max-width: 600px; /* Puedes ajustar esto según tu diseño */
+        margin: 0 auto; /* Centra horizontalmente */
+    }
+
+    .img-container {
+        text-align: center; /* Alinea el contenido dentro de img-container al centro */
+    }
+
+    .lista-container {
+        margin-top: 20px; /* Espacio entre imagen y lista, ajusta según necesites */
+    }
+}

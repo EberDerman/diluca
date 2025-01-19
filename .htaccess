@@ -1,0 +1,20 @@
+# Habilitar motor de reescritura
+RewriteEngine On
+
+# Redirigir a HTTPS solo si no es localhost (esto evita redirigir a HTTPS en local)
+RewriteCond %{HTTP_HOST} !^localhost [NC]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+# Redirigir la raíz al index.html
+RewriteRule ^$ index.html [L]
+
+# Redirigir /noticias a /noticias.html
+RewriteRule ^noticias/?$ noticias.html [L]
+
+# Asegurarse de que los archivos y directorios existentes no se vean afectados
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirigir solicitudes restantes a inicio.php dentro de dilucaweb
+RewriteRule ^(.*)$ dilucaweb/inicio.php [L]

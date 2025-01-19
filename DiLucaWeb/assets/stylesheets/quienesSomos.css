@@ -1,0 +1,79 @@
+/*--------------------------------------------------------------
+# Quienes somos
+--------------------------------------------------------------*/
+
+
+.container {
+  display: grid;
+}
+
+.titulo-logo .img-fluid {
+  margin-bottom: 20px;
+  /* Espacio debajo del logo */
+  height: 30vh;
+}
+
+.texto-container {
+  max-width: 100%;
+  /* Asegurar que el contenedor de texto ocupe el ancho permitido */
+  border: solid 2px white;
+  border-radius: 50px;
+  padding: 50px;
+  font-family: 'arial', sans-serif;
+
+}
+
+.texto-container h3 {
+  text-align: center;
+  padding-bottom: 20px;
+  color: rgb(201, 176, 34);
+  
+}
+
+.imgQuienes_background {
+  position: relative;
+  background-color: rgb(201, 176, 34) !important;
+  color: black;
+  padding-top: 40px;
+
+  height: 90px;
+  z-index: -1;
+  top: -60px;
+  border-radius: 20px;
+  width: 150px;
+
+
+  display: flex;
+  /* Activa Flexbox para alinear elementos */
+  justify-content: center;
+  /* Alinea horizontalmente si es necesario */
+  align-items: flex-end;
+  /* Alinea verticalmente los elementos al fondo */
+
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+}
+
+
+
+.img-container img {
+  width: 100%;
+  height: auto;
+  z-index: 2;
+}
+
+
+.quienesSomos {
+  padding-bottom: 50px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6, .img-container{
+  font-family: 'Myriad Pro Bold', sans-serif;;
+}
