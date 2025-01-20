@@ -5,6 +5,12 @@
     <?php include 'php/head.php'; ?>
     <link href="./assets/stylesheets/contenidoEspecializaciones.css" rel="stylesheet">
     <?php include 'php/header.php'; ?>
+
+    <style>
+         p {
+            text-align: justify;
+        }
+    </style>
 </head>
 
 <body>

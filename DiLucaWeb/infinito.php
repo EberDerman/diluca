@@ -18,6 +18,9 @@
             flex-direction: column;
             align-items: center;
         }
+        p{
+            text-align: justify;
+        }
     </style>
     <?php include 'php/header.php'; ?>
 </head>
@@ -45,18 +48,14 @@
                 </div>
             </div>
         </div>
-        <section class="mb-5 imagen_trasera_fondo dark-background section" id="imagen_trasera_fondo">
-            <img alt="" src="./assets/images/img/d36.webp">
-        </section>
+      
         <div class="logoTitulo"><?php include 'php/logo.php'; ?></div>
         <div class="container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" style="color: #ff0;">
             <div class="align-items-center d-flex flex-column justify-content-center texto-container2 m-1 mb-5">
                 <p>“INFINITO OPEN” NO SÓLO SE DISTINGUE POR SU IMPRESIONANTE ESCALA, ABARCANDO MÁS DE 400.000M2, SINO TAMBIÉN POR LA COMPLEJIDAD DE SU EJECUCIÓN, QUE IMPLICA EL MOVIMIENTO DE 350.000M3 DE SUELO Y LA IMPLEMENTACIÓN DE AVANZADAS OBRAS DE PAVIMENTACIÓN E INFRAESTRUCTURA. ESTE PROYECTO SERÁ UN TESTIMONIO DE LA CAPACIDAD HUMANA PARA TRANSFORMAR PAISAJES Y CREAR AMBIENTES QUE OFRECEN EXPERIENCIAS INOLVIDABLES A MILLONES DE VISITANTES ANUALMENTE.</p>
             </div>
         </div>
-        <section class="mb-5 imagen_trasera_fondo dark-background section" id="imagen_trasera_fondo">
-            <img alt="" src="./assets/images/img/d37.webp">
-        </section>
+        
         <div class="veintidos" id="veintidos">
             <div class="logoTitulo"><?php include 'php/logo.php'; ?></div>
             <div class="container_padre">

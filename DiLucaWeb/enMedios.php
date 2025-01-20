@@ -28,13 +28,13 @@
                             </div>
                             <img alt="Imagen de medios" class="img_centro" src="./assets/images/medios.webp">
                         </div>
-                        <div class="col-md-12 texto-container lista-container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" id="lista-container">
-                            <ul class="text-center list-unstyled">
+                        <div class="col-md-12 texto-container lista-container " data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" id="lista-container">
+                            <ul class="list-unstyled">
                                 <li><a href="https://cordobainteriorinforma.com/2019/04/04/ocho-empresas-pugnan-por-ejecutar-las-obras-de-sistematizacion-en-la-cuenca-del-arroyo-calchin/">Cordoba Interior Informa</a></li>
-                                <li><a href="https://www.guiamedia.com.ar/obra-canal-garione-ya-esta-la-empresa/">Guia Medios</a></li>
-                                <li><a href="https://infonegocios.info/bien-de-familia/di-luca-excavaciones-en-progresion-aritmetica-6-13-30-y-70-millones-este-ano">Info Negocios</a></li>
-                                <li><a href="https://infonegocios.info/lo-que-viene/di-luca-excavaciones">Info Negocios 2</a></li>
-                                <li><a href="https://www.infonegocios.info/lo-que-viene/lucas-di-luca-di-luca-excavaciones-srl">Info Negocios 3</a></li>
+                                <li><a href="https://www.guiamedia.com.ar/obra-canal-garione-ya-esta-la-empresa/">Obra Canal Garione</a></li>
+                                <li><a href="https://infonegocios.info/bien-de-familia/di-luca-excavaciones-en-progresion-aritmetica-6-13-30-y-70-millones-este-ano">Di Luca Excavaciones en <br> progresión aritmética</a></li>
+                                <li><a href="https://infonegocios.info/lo-que-viene/di-luca-excavaciones">Di Luca Excavaciones</a></li>
+                                <li><a href="https://www.infonegocios.info/lo-que-viene/lucas-di-luca-di-luca-excavaciones-srl">Lucas Di Luca <br>(Di Luca Excavaciones SRL)</a></li>
                             </ul>
                         </div>
                     </div>
