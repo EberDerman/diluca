@@ -20,7 +20,7 @@
 <header id="header" class="header d-flex align-items-center">
 
   <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-    <a href="index.html" class="logo d-flex align-items-center">
+    <a href="https://dilucaconstructora.com/" class="logo d-flex align-items-center">
 
       <img class="img-fluid " src="./assets/images/diluca-vid.webp" alt="Diluca">
 
