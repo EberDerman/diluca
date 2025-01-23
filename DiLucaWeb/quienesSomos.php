@@ -4,34 +4,11 @@
 <head>
   <?php include 'php/head.php'; ?>
   <link rel="stylesheet" href="./assets/stylesheets/quienesSomos.css">
-  
+
   <link rel="stylesheet" href="./assets/stylesheets/contenidoEspecializaciones.css">
 
-
 </head>
-<style>
-  .imgQuienes_background {
-  position: relative;
-  background-color: rgb(216, 189, 37) !important;
-  color: black;
-  padding-top: 40px;
 
-  height: 90px;
-  z-index: -1;
-  top: -60px;
-  border-radius: 20px;
-  width: 150px;
-
-
-  display: flex;
-  /* Activa Flexbox para alinear elementos */
-  justify-content: center;
-  /* Alinea horizontalmente si es necesario */
-  align-items: flex-end;
-  /* Alinea verticalmente los elementos al fondo */
-
-}
-</style>
 
 <body>
   <?php include 'php/header.php'; ?>
@@ -60,27 +37,27 @@
           <div class="col-md-6">
             <div class="row">
               <div class="col-6 col-md-6 mb-4">
-                <div class="img-container"data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
-                  <img class="imgPersona" src="./assets/images/personas/d1.webp" alt="Eduardo" >
-                  <div class="imgQuienes_background"><span>EDUARDO</span></div>
+                <div class="img-container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+                  <img class="imgPersona" src="./assets/images/webp2/1.webp" alt="Eduardo">
+
                 </div>
               </div>
               <div class="col-6 col-md-6 mb-4">
-                <div class="img-container"data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
-                  <img class="imgPersona" src="./assets/images/personas/d2.webp" alt="Lucas">
-                  <div class="imgQuienes_background"><span>LUCAS</span></div>
+                <div class="img-container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+                  <img class="imgPersona" src="./assets/images/webp2/2.webp" alt="Lucas">
+
                 </div>
               </div>
               <div class="col-6 col-md-6 mb-4">
-                <div class="img-container"data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
-                  <img class="imgPersona" src="./assets/images/personas/d3.webp" alt="Axel">
-                  <div class="imgQuienes_background"><span>AXEL</span></div>
+                <div class="img-container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+                  <img class="imgPersona" src="./assets/images/webp2/3.webp" alt="Axel">
+
                 </div>
               </div>
               <div class="col-6 col-md-6 mb-4">
-                <div class="img-container"data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
-                  <img class="imgPersona" src="./assets/images/personas/d4.webp" alt="Marcos">
-                  <div class="imgQuienes_background"><span>MARCOS</span></div>
+                <div class="img-container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+                  <img class="imgPersona" src="./assets/images/webp2/4.webp" alt="Marcos">
+
                 </div>
               </div>
             </div>
@@ -129,15 +106,13 @@
               <!-- Segundo contenedor (imágenes) -->
               <div class="col-md-6">
 
-                <div>
-                  <div class="img-container flex-column"data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
-                    <div class="back_titulo2 text-center">
-                      <p>La Excelencia a través de <br> valores familiares:<br>‘El Caso de DI LUCA’</p>
-                    </div>
-                    <img class="img_centro" src="./assets/images/img/d5.webp" alt="">
 
-                  </div>
+                <div class="img-container d-flex flex-column justify-content-center align-content-center ms-xxl-5" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+
+                  <img class="img-fluid w-100 h-100 object-fit-cover pb-5" src="./assets/images/webp2/5.webp" alt="">
+
                 </div>
+
               </div>
             </div>
           </div>
@@ -156,15 +131,16 @@
         </div>
 
 
-        <div class="container_padre">
+        <div class="container_padre d-flex flex-column align-content-center justify-content-center">
 
+          <!-- Contenedor trasero -->
           <div class="contenedor_trasero"></div>
 
+          <!-- Container principal -->
           <div class="container">
-            <div class="row justify-content-between">
+            <div class="row">
               <!-- Primer contenedor (texto) -->
-              <div class="texto-container col-md-6"  data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
-
+              <div class="texto-container col-md-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
                 <p>La cordialidad y la calidez familiar distinguen el trato humano en DI LUCA. La empresa se concibe como una gran familia donde cada miembro es valorado y respetado.
                   Esta atmósfera de camaradería se refleja en las interacciones con los clientes, creando un ambiente de confianza y colabo-ración mutua.
                   La eficacia es el resultado natural de combinar estos valores.
@@ -177,19 +153,15 @@
               </div>
 
               <!-- Segundo contenedor (imágenes) -->
-              <div class="col-md-6 d-flex flex-column justify-content-center">
-
-
-                <div class="img-container justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" >
-
-                  <img class="img_centro_sola" src="./assets/images/img/d6.webp" alt="">
-
+              <div class="col-md-6 d-flex flex-column justify-content-center align-content-center">
+                <div class="img-container d-flex flex-column justify-content-center align-content-center ms-xxl-5" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+                  <img class="img-fluid w-100 h-100 object-fit-cover  pb-5" src="./assets/images/webp2/6.webp" alt="">
                 </div>
-
               </div>
             </div>
           </div>
         </div>
+
       </div>
 
 

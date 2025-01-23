@@ -17,12 +17,12 @@
                         <div class="row">
                             <div class="col-6 col-md-12 mb-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
                                 <div class="img-container">
-                                    <img alt="Máquina 1" class="imgMaquina" src="./assets/images/especializaciones/d14.webp">
+                                    <img alt="Máquina 1" class="imgMaquina" src="./assets/images/webp2/13.webp">
                                 </div>
                             </div>
                             <div class="col-6 col-md-12 mb-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
                                 <div class="img-container">
-                                    <img alt="Máquina 2" class="imgMaquina" src="./assets/images/especializaciones/d15.webp">
+                                    <img alt="Máquina 2" class="imgMaquina" src="./assets/images/webp2/14.webp">
                                 </div>
                             </div>
                         </div>

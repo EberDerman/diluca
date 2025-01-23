@@ -1,18 +1,31 @@
 <style>
   .header {
     transition: top 0.5s ease;
-    /* Transición suave de 0.5 segundos */
     position: fixed;
-    /* Mantiene el header en la parte superior de la página */
     width: 100%;
-    /* Asegura que el header ocupe todo el ancho de la página */
     top: 0;
-    /* Posición inicial del header */
     z-index: 1000;
-    /* Asegura que el header esté por encima de otros elementos */
-    font-family: 'Myriad Pro Bold', sans-serif;
-    ;
   }
+  @font-face {
+  font-family: 'Arial Narrow Bold Italic';
+  src: url('../assets/fonts/arial-narrow-bold-italic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+a,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Arial Narrow Bold Italic';
+}
+
 </style>
 
 

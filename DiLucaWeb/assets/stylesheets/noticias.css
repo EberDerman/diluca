@@ -1,3 +1,25 @@
+
+@font-face {
+    font-family: 'Arial Narrow Bold Italic';
+    src: url('../assets/fonts/5632-font.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  a,
+  p,
+  span,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Arial Narrow Bold Italic';
+  }
+
+
+
 .noticia-container {
     display: flex;
     flex-direction: column;
@@ -17,14 +39,14 @@ width: 100%;
     padding: 30px;
     background-color: rgb(40, 40, 75);
     width: 100%;
-    font-family: 'arial', sans-serif;
+
     
 }
 
 .texto_noticia h3{
 text-align: center;
 color: rgb(201, 176, 34);
-font-family: 'Myriad Pro Bold', sans-serif;;
+
 }
 
 .fecha_noticia {
@@ -35,7 +57,7 @@ font-family: 'Myriad Pro Bold', sans-serif;;
     z-index: -1;
     border-radius: 30px;
     width: auto;
-    font-family: 'Myriad Pro Bold', sans-serif;;
+   
 
     display: flex;
     /* Activa Flexbox para alinear elementos */

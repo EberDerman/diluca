@@ -18,8 +18,8 @@
   /* Asegurar que el contenedor de texto ocupe el ancho permitido */
   border: solid 2px white;
   border-radius: 50px;
-  padding: 50px;
-  font-family: 'arial', sans-serif;
+  
+  
 
 }
 
@@ -30,41 +30,13 @@
   
 }
 
-.imgQuienes_background {
-  position: relative;
-  background-color: rgb(201, 176, 34) !important;
-  color: black;
-  padding-top: 40px;
-
-  height: 90px;
-  z-index: -1;
-  top: -60px;
-  border-radius: 20px;
-  width: 150px;
-
-
-  display: flex;
-  /* Activa Flexbox para alinear elementos */
-  justify-content: center;
-  /* Alinea horizontalmente si es necesario */
-  align-items: flex-end;
-  /* Alinea verticalmente los elementos al fondo */
-
-}
-
-.img-container {
-  display: flex;
-  flex-direction: column;
-  align-items: end;
-
-}
-
-
 
 .img-container img {
   width: 100%;
   height: auto;
   z-index: 2;
+  scale: 1.1;
+  
 }
 
 
@@ -74,6 +46,23 @@
 
 
 
-h1, h2, h3, h4, h5, h6, .img-container{
-  font-family: 'Myriad Pro Bold', sans-serif;;
+
+
+/* Pantallas medianas (tabletas) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Estilos para pantallas entre 769px y 992px */
+
+  
+.imgQuienes_background {
+ 
+  width: 100px;
+ right: 13px;
+
+
 }
+}
+  
+p{
+  text-align: justify;
+}
+

@@ -32,7 +32,7 @@
 .texto-container,
 .texto_front {
   margin-bottom: 80px;
-  font-family: 'arial', sans-serif;
+ 
 
 }
 
@@ -42,7 +42,7 @@ h4 {
   text-align: center;
   padding-bottom: 20px;
   color: rgb(201, 176, 34);
-  font-family: 'Myriad Pro Bold', sans-serif;
+ 
 }
 
 
@@ -75,13 +75,6 @@ h4 {
   top: -70px
 }
 
-.img_centro_infinito{
-  position: relative;
-  max-width: 100%;
-  height: auto;
-  z-index: 10;
-  top: -110px
-}
 
 .img_centro,
 .texto_front {
@@ -258,12 +251,4 @@ h4 {
 }
 
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Myriad Pro Bold', sans-serif;;
-}
 

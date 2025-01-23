@@ -118,17 +118,19 @@
             <div class="logoTitulo"><?php include 'php/logo.php'; ?></div>
             <div class="container">
 
-                <div class="row justify-content-between responsibe">
+                <div class="row justify-content-between responsibe ">
                     <div class="col-md-4 texto-container" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
                         <h3>DEMOLICIÓN:</h3>
                         <h4>Año 2018</h4>
                         <p> La demolición es el proceso de desmantelar, derribar o destruir estructuras existentes para dar paso a nuevas construcciones o para liberar terrenos para otros usos. Este proceso puede incluir la demolición de edificios residenciales, comerciales, indus-triales, puentes y otras estructuras.
                             Además, es esencial para eliminar estructuras peligrosas o no funcionales, mejorar la seguridad pública y cumplir con los requisitos de planificación y desarrollo.</p>
                     </div>
-                    <div class="col-md-7" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+
+
+                    <div class="col-md-7" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" style="margin-top: 70px;">
                         <div class="flex-column img-container">
-                            <div class="back_titulo"><span>PAPELERA KRAFT</span></div>
-                            <img class="img_centro" src="./assets/images/demolicion/d16.webp" alt="demolicion">
+                          
+                            <img class="img_centro" src="./assets/images/webp/PAPELERA KRAFT.webp" alt="demolicion">
                             <div class="back_texto">
 
                                 <p> Demolición de instalación de la papelera Kraft, más de 38.500m2 de mampostería con estructura metálicas, hormigones, cabreadas, me-
@@ -144,8 +146,8 @@
 
 
                         <div class="flex-column img-container">
-                            <div class="back_titulo"><span>CARDINALES NUEVA SUQUIA</span></div>
-                            <img class="img_centro" src="./assets/images/img/d18.webp" alt="demolicion">
+                           
+                            <img class="img_centro" src="./assets/images/webp/CARDINALES NUEVA SUQUIA.webp" alt="demolicion">
                             <div class="back_texto">
 
                                 <P>Demolición de la bodega existente, mas de 25.000m2 de hormigón armado con hierro del 25, paredes de hormigón encontradas, cisternas, bodegas, bases y pilotes.</P>
@@ -156,8 +158,8 @@
 
 
                         <div class="flex-column img-container">
-                            <div class="back_titulo"><span>PASEO DEL JOCKEY CLUB</span></div>
-                            <img class="img_centro" src="./assets/images/img/d20.webp" alt="demolicion">
+                           
+                            <img class="img_centro" src="./assets/images/webp/PASEO DEL JOCKEY copia.webp" alt="demolicion">
                             <div class="back_texto">
 
                                 <P> Demolición de las viejas tribunas y sectores comunes del Jockey Club, más de 50.000m2 intervenidos, demoliendo espacios con estructura metálicas, hormigones, cabreadas metálicas, playones de estacionamientos, salones, boleterías, baños públicos, cisternas.
@@ -169,8 +171,8 @@
 
 
                         <div class="flex-column img-container">
-                            <div class="back_titulo"><span>La Redención</span></div>
-                            <img class="img_centro" src="./assets/images/img/d19.webp" alt="demolicion">
+                            
+                            <img class="img_centro" src="./assets/images/webp/EX BATALLON.webp" alt="demolicion">
                             <div class="back_texto">
 
                                 <P> Se ejecutó el proyecto en zonas 100% inundadas por excedentes hidráulicos desembocando al rio Ctalamuchita. Esta obra comprendió unos 89.700m3 de excavación en canal, la ejecución de alcantarillas pre moldeados, terraplenes de contención y estructuras de disipación.

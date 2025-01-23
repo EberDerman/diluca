@@ -1,26 +1,35 @@
-
-
 @font-face {
-  font-family: 'Myriad Pro Bold';
-  src: url('fonts/MYRIADPRO-BOLD.OTF') format('opentype');
+  font-family: 'Arial Narrow Bold Italic';
+  src: url('../fonts/arial-narrow-bold-italic.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 
 
+a,
+p,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Arial Narrow Bold Italic';
+}
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'arial', sans-serif;
+
   color: rgb(196, 196, 196);
-  background-color:  rgb(40, 40, 75);
+  background-color: rgb(40, 40, 75);
   width: 100%;
   height: 100%;
 }
 
 a {
-  color:  rgb(40, 40, 75);
+  color: rgb(40, 40, 75);
   text-decoration: none;
 }
 
@@ -29,14 +38,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'arial', sans-serif;
-}
+
 
 main {
   min-height: 90vh;
@@ -202,7 +204,7 @@ main {
   font-weight: 600;
   letter-spacing: 0.8px;
   color: #fff;
-  font-family: 'Myriad Pro Bold', sans-serif;
+
 }
 
 .header .logo h1 span {
@@ -245,7 +247,7 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 0 3px;
-    font-family: 'Myriad Pro Bold', sans-serif;
+
     font-size: 16px;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.6);
@@ -394,7 +396,7 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    font-family: 'Myriad Pro Bold', sans-serif;
+
     font-size: 15px;
     font-weight: 600;
     color: rgb(255 255 255);
@@ -416,7 +418,7 @@ section {
     color: #fff;
   }
 
- 
+
 
   .navbar .dropdown ul,
   .navbar .dropdown .dropdown ul {
@@ -495,12 +497,12 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #fff;
-  font-family: 'Myriad Pro Bold', sans-serif;
+
 }
 
 .footer .footer-info p {
   font-size: 14px;
-  font-family: 'Myriad Pro Bold', sans-serif;
+
 }
 
 .footer .social-links a {
@@ -604,7 +606,3 @@ section {
   position: relative;
   z-index: 3;
 }
-
-
-
-
