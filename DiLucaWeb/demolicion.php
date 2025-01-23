@@ -129,7 +129,7 @@
 
                     <div class="col-md-7" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" style="margin-top: 70px;">
                         <div class="flex-column img-container">
-                          
+
                             <img class="img_centro" src="./assets/images/webp/PAPELERA KRAFT.webp" alt="demolicion">
                             <div class="back_texto">
 
@@ -146,7 +146,7 @@
 
 
                         <div class="flex-column img-container">
-                           
+
                             <img class="img_centro" src="./assets/images/webp/CARDINALES NUEVA SUQUIA.webp" alt="demolicion">
                             <div class="back_texto">
 
@@ -158,7 +158,7 @@
 
 
                         <div class="flex-column img-container">
-                           
+
                             <img class="img_centro" src="./assets/images/webp/PASEO DEL JOCKEY copia.webp" alt="demolicion">
                             <div class="back_texto">
 
@@ -171,13 +171,12 @@
 
 
                         <div class="flex-column img-container">
-                            
+
                             <img class="img_centro" src="./assets/images/webp/EX BATALLON.webp" alt="demolicion">
                             <div class="back_texto">
 
-                                <P> Se ejecutó el proyecto en zonas 100% inundadas por excedentes hidráulicos desembocando al rio Ctalamuchita. Esta obra comprendió unos 89.700m3 de excavación en canal, la ejecución de alcantarillas pre moldeados, terraplenes de contención y estructuras de disipación.
-                                    Es una obra que se ejecutó con dos excavadoras de 22tn y capacidad de 2m3 en balde, pala cargadora de 3m3, camiones de gran capacidad de carga 20 – 25 m3 y un equipos de 10 personas para tareas manuales.
-                                    Con una profundidad máxima de 2,90mt.
+                                <P>Demolición de los cuarteles de batallón 141, más de 45.000m2 de mampostería con estructura metálicas, cabreadas metálicas, playones de hormigón, cisternas.
+                                    Seguimiento con geólogo por resolución de derechos humanos.
                                 </P>
                             </div>
                         </div>

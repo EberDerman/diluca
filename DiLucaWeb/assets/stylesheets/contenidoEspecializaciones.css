@@ -1,3 +1,33 @@
+@font-face {
+  font-family: 'Arial Narrow Bold Italic';
+  src: url('../fonts/arial-narrow-bold-italic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Bold';
+  src: url('../fonts/MYRIADPRO-BOLD.OTF') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  font-family: 'Arial Narrow Bold Italic';
+}
+
+a,
+p {
+  font-family: 'Myriad Bold';
+}
+
 .titulo-logo .img-fluid {
   margin-bottom: 20px;
   /* Espacio debajo del logo */
@@ -48,6 +78,7 @@ h4 {
 
 
 .back_titulo {
+
   background-color: grey;
   color: black;
   padding: 15px 20px 0px 20px;
@@ -55,7 +86,7 @@ h4 {
   z-index: -1;
   border-radius: 30px;
   width: auto;
-
+  font-family: 'Arial Narrow Bold Italic';
   display: flex;
   /* Activa Flexbox para alinear elementos */
   justify-content: center;

@@ -4,31 +4,10 @@
 <head>
     <?php include 'php/head.php'; ?>
     <link href="./assets/stylesheets/contenidoEspecializaciones.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/stylesheets/hormigonado.css">
 
     <?php include 'php/header.php'; ?>
     <style>
-        @font-face {
-            font-family: 'Myriad Pro Bold';
-            src: url('assets/fonts/MYRIADPRO-BOLD.OTF') format('opentype');
-            font-weight: bold;
-            font-style: normal;
-        }
-
-
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6,
-        span,
-        p {
-            font-family: 'Myriad Pro Bold';
-        }
-
-
-
-
         @media (max-width: 767px) {
             .espec_imagenes .row:first-of-type .col-md-6:first-child {
                 order: 2;
@@ -50,12 +29,12 @@
         <div class="container espec_imagenes">
             <div class="row justify-content-around" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
                 <div class="col-md-6 mb-5">
-                    <img alt="hormigonado" src="./assets/images/webp2/20.webp" class="custom-width img-fluid">
+                    <img alt="hormigonado" src="./assets/images/webp2/20.webp" class="custom-width img-fluid imagen_solapa">
                 </div>
-                <div class="col-md-6">
-                    <div class="flex-column img-container texto_espec_container">
-                        <div class="back_titulo"><span>HORMIGONADO</span></div>
-                        <div class="texto_espec">
+                <div class="col-md-6 col-12" id="col-2">
+                <div class="img-container mb-3 mt-3">
+                        <img class="img-fluid w-50 object-fit-cover m-0 p-0 solapa" src="assets/images/HORMIGONADO.png" alt="">
+                        <div class="texto_solapa">
                             <p>El hormigonado es el proceso de mezcla, vertido y curado del hormigón para la construcción de diversas estructuras, como ci-mientos, muros, pavimentos y puentes. El hormigón es una mez-cla de cemento, agua, arena, grava y, a veces, aditivos para mejorar sus propiedades. El hormigonado requiere una planificación cuidadosa para evitar problemas como fisuras, contracción y defectos superficiales. La calidad de los materiales, las condiciones climáticas y los méto-dos de curado son factores críticos que afectan el resultado final. Además, la sostenibilidad en el uso del hormigón, incluyendo el reciclaje y el uso de materiales alternativos, es una consideración creciente en la industria.</p>
                         </div>
                     </div>

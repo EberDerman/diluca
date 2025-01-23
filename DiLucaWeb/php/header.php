@@ -14,16 +14,27 @@
 }
 
 
-a,
-p,
-span,
+@font-face {
+  font-family: 'Myriad Bold';
+  src: url('../assets/fonts/MYRIADPRO-BOLD.OTF') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+span {
   font-family: 'Arial Narrow Bold Italic';
+}
+
+a,
+p {
+  font-family: 'Myriad Bold';
 }
 
 </style>
@@ -43,7 +54,7 @@ h6 {
         <li><a href="inicio.php">Inicio</a></li>
         <li><a href="quienesSomos.php">¿Quiénes somos?</a></li>
 
-        <li class="dropdown"><a href="especializaciones.php"><span>Nuestras especializaciones</span> <i
+        <li class="dropdown"><a href="especializaciones.php">Nuestras especializaciones<i
               class="bi bi-chevron-down dropdown-indicator"></i></a>
           <ul>
             <li><a href="demolicion.php">Demolición</a></li>
